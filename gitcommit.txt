@@ -1,0 +1,12 @@
+via console nr juist map
+git add .
+of git add hogerlager
+git status
+git push origin master
+
+
+git commit
+git push
+git tag -a -m "first release" v1.0 master 
+git tag
+git log
