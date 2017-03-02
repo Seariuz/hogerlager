@@ -69,6 +69,11 @@ function updateCounter() {
 		var num = s(".tries span");
 		var intNum = parseInt(num.innerHTML);
 		num.innerHTML = intNum + 1;
+		var walterkes=document.getElementById("walterkes");
+		var img = document.createElement("img");
+		img.src = 'Img/lelijkewalter.png'
+		img.className ="woohWalter" 
+		walterkes.appendChild(img); 
 }
 
 function saveInput(input) {
