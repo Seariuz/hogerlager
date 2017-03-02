@@ -5,7 +5,7 @@ git status
 git push origin master
 
 
-git commit
+git commit -m "bla"
 git push
 git tag -a -m "first release" v1.0 master 
 git tag
