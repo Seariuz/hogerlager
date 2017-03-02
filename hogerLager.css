@@ -1,7 +1,7 @@
 * {
 		margin: 0;
 		padding: 0;
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Lobster',cursive, sans-serif;
 		font-weight: 400;
 		-webkit-font-smoothing: antialiased;
 }
@@ -19,12 +19,16 @@ h1,
 h2 {
 		text-align: center;
 		margin-bottom: 20px;
+		color:black;
 }
 
 body {
 		background-color: #F44336;
 		color: #ffffff;
 		text-align: center;
+		background-image: url(Img/cards.jpg);
+		background-size: 100%  100%;
+		background-repeat: no-repeat;
 }
 
 button {
@@ -66,8 +70,19 @@ button:focus {
 		margin-left: -250px;
 }
 
+.page {
+		background-color:grey;
+		opacity: 0.9777;
+		border : 2px solid white;
+		border-radius: 25px;
+
+
+}
+
 #page-1 {
 		display: block;
+}
+#page-2 {padding-top:10px;
 }
 
 .used {
@@ -83,6 +98,9 @@ button:focus {
 		right: 20px;
 }
 
+button {
+   font-family:'Montserrat',cursive;   
+}
 .card {
 		background-color: #ffffff;
 		padding: 10px;

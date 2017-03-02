@@ -62,6 +62,7 @@ function transition() {
 		s("#page-1").style.display = "none";
 		s("#page-2").style.display = "block";
 		s("#page-2").setAttribute("class", "page show");
+		document.getElementById("numInput").focus();
 }
 
 function updateCounter() {
